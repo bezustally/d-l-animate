@@ -7,7 +7,6 @@ window.addEventListener('load', function() {
 			toogleItem(e.target)
 		}
 	})
-
 	function toogleItem(ask) {
 		let answer = ask.parentNode.querySelector('.answer')
 		let heightBefore = answer.offsetHeight
